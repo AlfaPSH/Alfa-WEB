@@ -5,9 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    color: rgb(11, 11, 11);
-}
 
 .header {
     position: fixed;
@@ -95,10 +92,26 @@ span {
     position: absolute;
     top: 25%;
     left: 800px;
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 1000px;
 }
 
 html{
     scroll-behavior: smooth;
+}
+
+.image-container img {
+    width: 300px;
+    height: 320px;
+    border-radius: 180px;
+}
+
+#about-me .content h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about-me {
+    position: relative;
+    left: 150px;
+
 }
